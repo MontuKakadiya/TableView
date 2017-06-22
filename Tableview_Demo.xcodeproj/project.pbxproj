@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8B2260691EFB8B5400942500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2260681EFB8B5400942500 /* AppDelegate.swift */; };
-		8B22606B1EFB8B5400942500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22606A1EFB8B5400942500 /* ViewController.swift */; };
 		8B22606E1EFB8B5400942500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B22606C1EFB8B5400942500 /* Main.storyboard */; };
 		8B2260701EFB8B5400942500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B22606F1EFB8B5400942500 /* Assets.xcassets */; };
 		8B2260731EFB8B5400942500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2260711EFB8B5400942500 /* LaunchScreen.storyboard */; };
+		8B22607B1EFB8EF300942500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22606A1EFB8B5400942500 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,13 +55,21 @@
 			isa = PBXGroup;
 			children = (
 				8B2260681EFB8B5400942500 /* AppDelegate.swift */,
-				8B22606A1EFB8B5400942500 /* ViewController.swift */,
+				8B22607A1EFB8B6000942500 /* ViewController */,
 				8B22606C1EFB8B5400942500 /* Main.storyboard */,
 				8B22606F1EFB8B5400942500 /* Assets.xcassets */,
 				8B2260711EFB8B5400942500 /* LaunchScreen.storyboard */,
 				8B2260741EFB8B5400942500 /* Info.plist */,
 			);
 			path = Tableview_Demo;
+			sourceTree = "<group>";
+		};
+		8B22607A1EFB8B6000942500 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B22606A1EFB8B5400942500 /* ViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B22606B1EFB8B5400942500 /* ViewController.swift in Sources */,
+				8B22607B1EFB8EF300942500 /* ViewController.swift in Sources */,
 				8B2260691EFB8B5400942500 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
